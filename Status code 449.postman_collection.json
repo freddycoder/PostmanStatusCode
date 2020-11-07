@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "9b06cc54-a3dd-42a5-bca3-d768f4f1bfe9",
+		"name": "Status code 449",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "200",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0c6ade84-bc16-41f7-9bf1-47a1282b1aa1",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/Status200",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"Status200"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/Status200",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Status200"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "404",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8ff4bd30-4934-468e-9bc4-294c8a38f2ab",
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/Status404",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"Status404"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "404",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/Status404",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Status404"
+							]
+						}
+					},
+					"code": 404,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "422",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3ce08d5b-96d9-49de-b17d-37457464ea73",
+						"exec": [
+							"pm.test(\"Status code is 422\", function () {\r",
+							"    pm.response.to.have.status(422);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/Status422",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"Status422"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "422",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/Status422",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Status422"
+							]
+						}
+					},
+					"code": 422,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "449",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "355d5d00-5d73-4c44-931b-c1b01a2368da",
+						"exec": [
+							"pm.test(\"Status code is 449\", function () {\r",
+							"    pm.response.to.have.status(449);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/Status449",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"Status449"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "449",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/Status449",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Status449"
+							]
+						}
+					},
+					"code": 449,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "451",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cde9f080-f94b-498e-bd64-1f7d924e31ed",
+						"exec": [
+							"pm.test(\"Status code is 451\", function () {\r",
+							"    pm.response.to.have.status(451);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/Status451",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"Status451"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "451",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/Status451",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"Status451"
+							]
+						}
+					},
+					"code": 451,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
