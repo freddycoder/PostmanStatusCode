@@ -72,4 +72,4 @@ Each case from 400 to 499 has been created. 29 / 100 test passed. Here is the li
 | 460         |                                      |                                  | ❌                             |
 ...
 
-When there is not support for Postman mock server, code 200 is returned instead.
+When there is no support for Postman mock server, code 200 is returned instead.
